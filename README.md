@@ -21,8 +21,6 @@ A hierarchical energy management approach is considered, consisting of distribut
 - Generate a 15-minute-resolution EV charging schedule over a 24-hour horizon.
 
 ## 3. Tools and Technologies
-
-- **MATLAB** — mathematical modelling and optimization.
 - **Mixed-Integer Linear Programming (MILP)** — charging scheduling and resource allocation.
 - **Optimization Toolbox (`intlinprog`)** — solving the MILP optimization problem.
 - **Solar PV and utility grid modelling** — energy source coordination.
@@ -101,7 +99,7 @@ The report describes the following inputs:
 
 The energy profiles are aligned to a common 15-minute time index to form a 96-slot daily dataset.
 
-## 7. Preliminary Results
+## 7.Data 
 
 The mid-term presentation reports the following results for one preliminary optimization run:
 
@@ -124,11 +122,9 @@ These results are specific to the inputs, assumptions, and constraints used in t
 
 *Note: This is a suggested folder structure. The MATLAB scripts and result figures listed above should be added only when their actual files are available. The supplied schedule CSV and project PDFs can be placed in their corresponding folders.*
 
-## 8. Current Status and Future Work
+## 8. Work
 
-The mid-term project report and presentation document the implementation of the data preprocessing pipeline, MILP formulation, MATLAB optimization workflow, schedule extraction, and preliminary feasibility testing.
-
-The remaining work includes:
+work includes:
 
 - Refining fixed EV-to-station and port assignments.
 - Separating port connection status from actual charging status.
@@ -141,7 +137,7 @@ The remaining work includes:
 
 ## 9. Conclusion
 
-This project develops a MATLAB-based MILP framework for coordinated EV charging in a solar–grid integrated network. By combining EV-port assignment, charging power optimization, battery SoC modelling, and infrastructure constraints, the framework provides a foundation for structured energy management across multiple charging stations.
+This project develops a MILP framework for coordinated EV charging in a solar–grid integrated network. By combining EV-port assignment, charging power optimization, battery SoC modelling, and infrastructure constraints, the framework provides a foundation for structured energy management across multiple charging stations.
 
-The preliminary results indicate the potential for high solar energy utilization under the configured simulation assumptions. Further validation and comparative analysis are required to establish the final feasibility and performance of the proposed scheduling framework.
+The results indicate the potential for high solar energy utilization under the configured simulation assumptions. Further validation and comparative analysis are required to establish the final feasibility and performance of the proposed scheduling framework.
 
